@@ -71,10 +71,10 @@ export default function ContactMe(props) {
             {" "}
             <Typical loop={Infinity} steps={["Get In Touch 🤝", 1000]} />
           </h2>
-          <a href="https://github.com/OskarMularski98">
+          <a href="https://github.com/OskarMularski98" target="_blank">
             <i className="fa fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/oskar-mularski/">
+          <a href="https://www.linkedin.com/in/oskar-mularski/" target="_blank">
             <i className="fa fa-linkedin-square"></i>
           </a>
         </div>

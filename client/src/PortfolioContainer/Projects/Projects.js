@@ -83,7 +83,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={portfolio} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/personalPortfolioWebsite">Personal Portfolio Website</a>
+                    <a href="https://github.com/OskarMularski98/personalPortfolioWebsite" target="_blank">Personal Portfolio Website</a>
                     <p>Technologies Used: React JS, Bootstrap</p>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={toDo} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/ToDo">ToDo List</a>
+                    <a href="https://github.com/OskarMularski98/ToDo" target="_blank">ToDo List</a>
                     <p>Technologies Used: JS, Css</p>
                   </div>
                 </div>
@@ -141,7 +141,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={adventCalendar} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/AdventCalendar">Advent Calendar</a>
+                    <a href="https://github.com/OskarMularski98/AdventCalendar" target="_blank">Advent Calendar</a>
                     <p>Technologies Used: JS, Sass</p>
                   </div>
                 </div>
