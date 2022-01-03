@@ -71,6 +71,9 @@ export default function Projects(props) {
                         <i className="fa fa-star"></i>
                       </li>
                       <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
                         <i className="fa fa-star-half-alt"></i>
                       </li>
                       <li>
@@ -100,12 +103,6 @@ export default function Projects(props) {
                         <i className="fa fa-star"></i>
                       </li>
                       <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
                         <i className="fa fa-star-half-alt"></i>
                       </li>
                       <li>
@@ -131,12 +128,6 @@ export default function Projects(props) {
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
                       <li>
                         <i className="fa fa-star"></i>
                       </li>
