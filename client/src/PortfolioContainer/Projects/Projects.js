@@ -80,7 +80,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={portfolio} alt="no internet connection"></img>
-                    <h5>Personal Portfolio Website</h5>
+                    <a href="https://github.com/OskarMularski98/personalPortfolioWebsite">Personal Portfolio Website</a>
                     <p>Technologies Used: React JS, Bootstrap</p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={toDo} alt="no internet connection"></img>
-                    <h5>ToDo List</h5>
+                    <a href="https://github.com/OskarMularski98/ToDo">ToDo List</a>
                     <p>Technologies Used: JS, Css</p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={adventCalendar} alt="no internet connection"></img>
-                    <h5>Advent Calendar</h5>
+                    <a href="https://github.com/OskarMularski98/AdventCalendar">Advent Calendar</a>
                     <p>Technologies Used: JS, Sass</p>
                   </div>
                 </div>

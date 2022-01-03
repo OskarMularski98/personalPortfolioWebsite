@@ -77,7 +77,7 @@
     border-radius: 20%;
     position: absolute;
 }
-.project-section .project-info h5{
+.project-section .project-info a{
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;

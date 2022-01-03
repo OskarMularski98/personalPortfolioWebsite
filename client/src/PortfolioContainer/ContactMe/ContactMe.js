@@ -108,14 +108,6 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      {/* <div className="scroll-container">
-        <button
-          className="btn-scroll">
-          {" "}
-          <i className="fa fa-arrow-up"
-          onClick={() => ScrollService.scrollHandler.scrollToHome()}></i>
-        </button>
-      </div> */}
     </div>
   );
 }
