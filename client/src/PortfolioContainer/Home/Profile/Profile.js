@@ -37,7 +37,7 @@ export default function Profile() {
                     1000,
                     "Front end Developer 💻",
                     1000,
-                    "I'm still learning 🤓",
+                    "Engineer Degree 👨‍🎓",
                     1000,
                     "Looking for job 👀",
                     1000,
