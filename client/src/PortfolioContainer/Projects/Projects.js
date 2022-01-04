@@ -9,6 +9,7 @@ import "./Projects.css";
 import portfolio from "../../../src/img/Project/portfolio.png";
 import toDo from "../../../src/img/Project/todo.png";
 import adventCalendar from "../../../src/img/Project/advent-calendar.png";
+import tictactoe from "../../../src/img/Project/tictactoe.png"
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -118,7 +119,7 @@ export default function Projects(props) {
                     </ul>
                   </div>
                   <div className="project-info">
-                    <img src={portfolio} alt="no internet connection"></img>
+                    <img src={tictactoe} alt="no internet connection"></img>
                     <a
                       href="https://github.com/OskarMularski98/TicTacToeGame"
                       target="_blank"
