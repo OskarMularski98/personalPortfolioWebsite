@@ -83,8 +83,49 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={portfolio} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/personalPortfolioWebsite" target="_blank">Personal Portfolio Website</a>
+                    <a
+                      href="https://github.com/OskarMularski98/personalPortfolioWebsite"
+                      target="_blank"
+                    >
+                      Personal Portfolio Website
+                    </a>
                     <p>Technologies Used: React JS, Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="project-item">
+                  <div className="project-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Tic Tac Toe Game where user 'X' can play with computer
+                      'O', who take turns making the spaces in a 3x3 grid.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-info">
+                    <img src={portfolio} alt="no internet connection"></img>
+                    <a
+                      href="https://github.com/OskarMularski98/TicTacToeGame"
+                      target="_blank"
+                    >
+                      Tic Tac Toe Game
+                    </a>
+                    <p>Technologies Used: Vanilla JS, CSS</p>
                   </div>
                 </div>
               </div>
@@ -112,7 +153,12 @@ export default function Projects(props) {
                   </div>
                   <div className="project-info">
                     <img src={toDo} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/ToDo" target="_blank">ToDo List</a>
+                    <a
+                      href="https://github.com/OskarMularski98/ToDo"
+                      target="_blank"
+                    >
+                      ToDo List
+                    </a>
                     <p>Technologies Used: JS, Css</p>
                   </div>
                 </div>
@@ -140,8 +186,16 @@ export default function Projects(props) {
                     </ul>
                   </div>
                   <div className="project-info">
-                    <img src={adventCalendar} alt="no internet connection"></img>
-                    <a href="https://github.com/OskarMularski98/AdventCalendar" target="_blank">Advent Calendar</a>
+                    <img
+                      src={adventCalendar}
+                      alt="no internet connection"
+                    ></img>
+                    <a
+                      href="https://github.com/OskarMularski98/AdventCalendar"
+                      target="_blank"
+                    >
+                      Advent Calendar
+                    </a>
                     <p>Technologies Used: JS, Sass</p>
                   </div>
                 </div>
