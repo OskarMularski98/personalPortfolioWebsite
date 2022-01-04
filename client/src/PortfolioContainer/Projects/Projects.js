@@ -160,7 +160,7 @@ export default function Projects(props) {
                     >
                       ToDo List
                     </a>
-                    <p>Technologies Used: JS, Css</p>
+                    <p>Technologies Used: JS, CSS</p>
                   </div>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export default function Projects(props) {
                     >
                       Advent Calendar
                     </a>
-                    <p>Technologies Used: JS, Sass</p>
+                    <p>Technologies Used: JS, SASS</p>
                   </div>
                 </div>
               </div>
