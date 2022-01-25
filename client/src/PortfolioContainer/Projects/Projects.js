@@ -165,7 +165,7 @@ export default function Projects(props) {
                       Calculator BMI
                     </a>
                     <p>Technologies Used: React JS, CSS</p>
-                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><button>View app</button></a>
+                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><button className="btn btn-warning">View app</button></a>
                   </div>
                 </div>
               </div>
