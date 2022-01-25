@@ -9,7 +9,8 @@ import "./Projects.css";
 import portfolio from "../../../src/img/Project/portfolio.png";
 import toDo from "../../../src/img/Project/todo.png";
 import adventCalendar from "../../../src/img/Project/advent-calendar.png";
-import tictactoe from "../../../src/img/Project/tictactoe.png"
+import tictactoe from "../../../src/img/Project/tictactoe.png";
+import calculator from "../../../src/img/Project/calculator-bmi.png";
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -127,6 +128,43 @@ export default function Projects(props) {
                       Tic Tac Toe Game
                     </a>
                     <p>Technologies Used: Vanilla JS, CSS</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="project-item">
+                  <div className="project-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      Calculator that allows you to calculate BMI after filling
+                      in the appropriate data. Was made using useLocalStorage
+                      React Hook.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half-alt"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-info">
+                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><img src={calculator} alt="no internet connection"></img></a>
+                    <a
+                      href="https://github.com/OskarMularski98/bmi-calculator"
+                      target="_blank"
+                    >
+                      Calculator BMI
+                    </a>
+                    <p>Technologies Used: React JS, CSS</p>
                   </div>
                 </div>
               </div>
