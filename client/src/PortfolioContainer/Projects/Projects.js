@@ -152,7 +152,7 @@ export default function Projects(props) {
                         <i className="fa fa-star"></i>
                       </li>
                       <li>
-                        <i className="fas fa-star-half"></i>
+                        <i className="fa fa-star-half"></i>
                       </li>
                     </ul>
                   </div>
