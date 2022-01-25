@@ -157,7 +157,7 @@ export default function Projects(props) {
                     </ul>
                   </div>
                   <div className="project-info">
-                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><img src={calculator} alt="no internet connection"></img></a>
+                    <img src={calculator} alt="no internet connection"></img>
                     <a
                       href="https://github.com/OskarMularski98/bmi-calculator"
                       target="_blank"
@@ -165,6 +165,7 @@ export default function Projects(props) {
                       Calculator BMI
                     </a>
                     <p>Technologies Used: React JS, CSS</p>
+                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><button>View app</button></a>
                   </div>
                 </div>
               </div>
