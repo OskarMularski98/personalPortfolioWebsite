@@ -137,8 +137,8 @@ export default function Projects(props) {
                     <p>
                       <i className="fa fa-quote-left" />
                       Calculator that allows you to calculate BMI after filling
-                      in the appropriate data. Was made using useLocalStorage
-                      React Hook.
+                      in the appropriate data. Has option to change a theme from light to dark.
+                      It was made using useLocalStorage React Hook.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
