@@ -92,6 +92,7 @@ export default function Projects(props) {
                       Personal Portfolio Website
                     </a>
                     <p>Technologies Used: React JS, Bootstrap</p>
+                    <a href="https://portfolio-oskarmularski.herokuapp.com/" target="_blank"><button className="btn btn-warning">View app</button></a>
                   </div>
                 </div>
               </div>
