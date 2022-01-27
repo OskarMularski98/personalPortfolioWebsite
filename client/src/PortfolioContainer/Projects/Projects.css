@@ -90,7 +90,7 @@
     line-height: 26px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
     .project-section .project-info a{
         font-size: 8px;
         font-weight: 300;
