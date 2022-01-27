@@ -96,4 +96,10 @@
         font-weight: 300;
         line-height: 13px;
     }
+
+    .project-section .project-info a{
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 13px;
+    }
 }
