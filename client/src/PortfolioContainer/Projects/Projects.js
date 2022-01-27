@@ -11,7 +11,7 @@ import toDo from "../../../src/img/Project/todo.png";
 import adventCalendar from "../../../src/img/Project/advent-calendar.png";
 import tictactoe from "../../../src/img/Project/tictactoe.png";
 import calculator from "../../../src/img/Project/calculator-bmi.png";
-import crypto from "../../../src/img/Project/crypto-app.png"
+import crypto from "../../../src/img/Project/crypto-app.png";
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -123,7 +123,7 @@ export default function Projects(props) {
                         <i className="fa fa-star"></i>
                       </li>
                       <li>
-                        <i className="fa fa-star-half"></i>
+                        <i className="fa fa-star"></i>
                       </li>
                     </ul>
                   </div>
@@ -150,10 +150,10 @@ export default function Projects(props) {
                   <div className="project-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      A calculator that allows you to calculate BMI after filling
-                      in the appropriate data. Has option to change a theme from
-                      light to dark. It was made using useLocalStorage React
-                      Hook.
+                      A calculator that allows you to calculate BMI after
+                      filling in the appropriate data. Has option to change a
+                      theme from light to dark. It was made using
+                      useLocalStorage React Hook.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
