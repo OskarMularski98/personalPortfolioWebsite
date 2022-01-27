@@ -11,6 +11,7 @@ import toDo from "../../../src/img/Project/todo.png";
 import adventCalendar from "../../../src/img/Project/advent-calendar.png";
 import tictactoe from "../../../src/img/Project/tictactoe.png";
 import calculator from "../../../src/img/Project/calculator-bmi.png";
+import crypto from "../../../src/img/Project/crypto-app.png"
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -92,7 +93,99 @@ export default function Projects(props) {
                       Personal Portfolio Website
                     </a>
                     <p>Technologies Used: React JS, Bootstrap</p>
-                    <a href="https://portfolio-oskarmularski.herokuapp.com/" target="_blank"><button className="btn btn-warning">View app</button></a>
+                    <a
+                      href="https://portfolio-oskarmularski.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <button className="btn btn-warning">View app</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="project-item">
+                  <div className="project-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      A website that uses an API to show cryptocurrency data. It
+                      is possible to view the details of individual currencies
+                      and their value. The API was used by Hook axios.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-info">
+                    <img src={crypto} alt="no internet connection"></img>
+                    <a
+                      href="https://github.com/OskarMularski98/crypto-app"
+                      target="_blank"
+                    >
+                      Crypto App
+                    </a>
+                    <p>Technologies Used: React JS, CSS</p>
+                    <a
+                      href="https://crypto-app-om.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <button className="btn btn-warning">View app</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="project-item">
+                  <div className="project-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      A calculator that allows you to calculate BMI after filling
+                      in the appropriate data. Has option to change a theme from
+                      light to dark. It was made using useLocalStorage React
+                      Hook.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star-half"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-info">
+                    <img src={calculator} alt="no internet connection"></img>
+                    <a
+                      href="https://github.com/OskarMularski98/bmi-calculator"
+                      target="_blank"
+                    >
+                      Calculator BMI
+                    </a>
+                    <p>Technologies Used: React JS, CSS</p>
+                    <a
+                      href="https://bmi-calculator-om.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <button className="btn btn-warning">View app</button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -129,44 +222,6 @@ export default function Projects(props) {
                       Tic Tac Toe Game
                     </a>
                     <p>Technologies Used: Vanilla JS, CSS</p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="project-item">
-                  <div className="project-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Calculator that allows you to calculate BMI after filling
-                      in the appropriate data. Has option to change a theme from light to dark.
-                      It was made using useLocalStorage React Hook.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                    <ul className="stars list-unstyled">
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star"></i>
-                      </li>
-                      <li>
-                        <i className="fa fa-star-half"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="project-info">
-                    <img src={calculator} alt="no internet connection"></img>
-                    <a
-                      href="https://github.com/OskarMularski98/bmi-calculator"
-                      target="_blank"
-                    >
-                      Calculator BMI
-                    </a>
-                    <p>Technologies Used: React JS, CSS</p>
-                    <a href="https://bmi-calculator-om.herokuapp.com/" target="_blank"><button className="btn btn-warning">View app</button></a>
                   </div>
                 </div>
               </div>
