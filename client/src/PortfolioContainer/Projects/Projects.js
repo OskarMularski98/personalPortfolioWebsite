@@ -12,6 +12,7 @@ import adventCalendar from "../../../src/img/Project/advent-calendar.png";
 import tictactoe from "../../../src/img/Project/tictactoe.png";
 import calculator from "../../../src/img/Project/calculator-bmi.png";
 import crypto from "../../../src/img/Project/crypto-app.png";
+import twitch from "../../../src/img/Project/twitch-app.PNG"
 
 export default function Projects(props) {
   let fadeInScreenHandler = (screen) => {
@@ -102,6 +103,55 @@ export default function Projects(props) {
                   </div>
                 </div>
               </div>
+
+              <div className="col-lg-12">
+                <div className="project-item">
+                  <div className="project-comment">
+                    <p>
+                      <i className="fa fa-quote-left" />
+                      This project uses Twitch API to display ranking 100 live
+                      streamers at the moment. Also there's option to check out
+                      specific streamer and read some details about him/her and
+                      watch most popular clips or event watch stream.
+                      <i className="fa fa-quote-right" />
+                    </p>
+                    <ul className="stars list-unstyled">
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                      <li>
+                        <i className="fa fa-star"></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="project-info">
+                    <img src={twitch} alt="no internet connection"></img>
+                    <a
+                      href="https://github.com/OskarMularski98/twitch-app"
+                      target="_blank"
+                    >
+                      Twitch API
+                    </a>
+                    <p>Technologies Used: Vue JS, Vuetify, Twitch API</p>
+                    <a
+                      href="https://twitch-app-om.herokuapp.com"
+                      target="_blank"
+                    >
+                      <button className="btn btn-warning">View app</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               <div className="col-lg-12">
                 <div className="project-item">
                   <div className="project-comment">
