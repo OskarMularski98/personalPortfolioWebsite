@@ -3,7 +3,7 @@ Check this site out! 👨‍🎓
 
 ▪
 
-https://portfolio-oskarmularski.herokuapp.com/ 📄
+https://portfolio-app-om.firebaseapp.com/ 📄
 
 ▪
 
